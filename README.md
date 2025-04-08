@@ -29,3 +29,32 @@ Follow these steps to get the project up and running on your local machine:
 1. **Download or Clone the Repository:**
    ```bash
    git clone https://github.com/sumitwaikar/Fruit_Mart.git
+
+2. Copy Project Folder to Your Server Directory:
+
+For example, if using XAMPP, move it to:
+C:\xampp\htdocs\Fruit_Mart
+
+3. Start Apache Server: Open XAMPP Control Panel and start the Apache module.
+
+4. Open in Browser: Navigate to:
+http://localhost/Fruit_Mart
+
+6. 🎉 Done! You should now see the Fruit Mart homepage.
+
+💡 Features
+✅ Browse fruits with images and prices
+
+✅ Dynamic cart or billing system (if implemented)
+
+✅ Responsive design with clean layout
+
+✅ Easy to customize and expand
+
+
+👨‍💻 Author
+Built with ❤️ by [Your Name]
+Feel free to fork, modify, or contribute!
+
+📃 License
+This project is open-source and free to use for educational purposes.
