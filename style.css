@@ -1,0 +1,170 @@
+
+    body {
+        background-color: #2a3240; /* Dark background for the entire page */
+        color: #ffffff; /* Default text color for readability */
+    }
+
+    .navbar {
+        background-color: #ddba6b; /* Navbar background color */
+    }
+
+    .navbar a {
+        color: #2a3240; /* Navbar link color */
+    }
+
+    .navbar a:hover {
+        color: #ffffff; /* Navbar link hover color */
+    }
+
+    .carousel-inner img {
+        height: 450px; /* Adjust the slider height */
+        object-fit: cover; /* Ensures the image fits nicely without stretching */
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Adjust for centering */
+        text-align: center;
+        color: white;
+        z-index: 10;
+    }
+
+    .carousel-caption h5 {
+        font-size: 3rem; /* Increase font size of heading */
+    }
+
+    .carousel-caption p {
+        font-size: 1.5rem; /* Increase font size of paragraph */
+    }
+
+    /* Card Styles */
+    .card {
+        transition: transform 0.3s, box-shadow 0.3s; /* Transition for hover effects */
+        border: none; /* Remove default border */
+        border-radius: 15px; /* Rounded corners */
+        overflow: hidden; /* Ensure rounded corners are effective */
+    }
+    
+    .card img {
+        border-radius: 15px 15px 0 0; /* Round top corners of images */
+    }
+
+    .card:hover {
+        transform: translateY(-5px); /* Lift effect on hover */
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+    }
+
+    .card-body {
+        background-color: #ddba6b; /* Light background for card body */
+        border-radius: 0 0 15px 15px; /* Round bottom corners */
+        padding: 20px; /* Add padding to card body */
+    }
+
+    .card-title {
+        font-weight: bold; /* Bold card title */
+        color: #2a3240; /* Darker title color */
+    }
+
+    .card-text {
+        color: #2a3240; /* Darker text color for card text */
+    }
+
+    .btn-success {
+        background-color: #2a3240; /* Button background color */
+        color: #ddba6b; /* Button text color */
+        transition: background-color 0.3s; /* Smooth transition for button */
+    }
+
+    .btn-success:hover {
+        background-color: #1f252d; /* Darken button on hover */
+        color: #ffffff; /* Ensure text remains readable */
+    }
+
+    /* Footer Styles */
+    footer {
+        background-color: #2a3240; /* Footer background color */
+        color: #ddba6b; /* Footer text color */
+    }
+
+/* Services Section Background */
+.services-section {
+    background: linear-gradient(135deg, #f4d3a1 10%, #ddba6b 90%);
+    padding: 70px 0;
+    border-radius: 15px;
+}
+
+/* Section Title Styling */
+.section-title {
+    color: #2a3240;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    width: 80px;
+    height: 4px;
+    background-color: #ddba6b;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Service Card Styling */
+.service-card {
+    background-color: #2a3240;
+    border-radius: 15px;
+    padding: 30px;
+    color: #ffffff;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Service Icon Styling */
+.service-icon {
+    background-color: #ddba6b;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.service-card:hover .service-icon {
+    transform: rotate(360deg);
+}
+
+.service-icon img {
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) invert(1);
+}
+
+/* Service Card Heading */
+.service-card h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/* Service Card Description */
+.service-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
