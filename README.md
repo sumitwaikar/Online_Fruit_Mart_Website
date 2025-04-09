@@ -53,7 +53,7 @@ http://localhost/Fruit_Mart
 
 
 👨‍💻 Author
-Built with ❤️ by [Your Name]
+Built with ❤️ by Sumit Waikar
 Feel free to fork, modify, or contribute!
 
 📃 License
